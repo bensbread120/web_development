@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript trial</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <Script>
+         
+            let lastValue = parseInt(prompt("Please enter a number:"));
+
+            for (let x = 1; x<=lastValue; x++) {
+                if (x%15 == 0) {
+                    console.log("FIZZBUZZ");
+                    continue;
+                } else if (x%5 == 0) {
+                    console.log("BUZZ");
+                    continue;
+                } else if (x%3 == 0) {
+                    console.log("FIZZ");
+                    continue;
+                } else {
+                    console.log(x);
+                }
+            }        
+        
+        </Script>
+    </body>
+</html>

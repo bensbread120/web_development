@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript trial</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <Script>
+         
+//Traditional function
+         function capitalize(string) {
+             string = string.toLowerCase();
+             string = string.replace(string[0], string[0].toUpperCase()); 
+             return string;
+         }
+         console.log(capitalize("FIrst"));
+//Function expression
+         let capitalize1 = function(string) {
+             string = string.toLowerCase();
+             string = string.replace(string[0], string[0].toUpperCase()); 
+             return string;
+        }
+        console.log(capitalize1("CAPitalIZE"));
+//Arrow function
+         let capitalize2 = string => {
+             string = string.toLowerCase();
+             string = string.replace(string[0], string[0].toUpperCase()); 
+             return string;
+         }
+         console.log(capitalize2("THirdLY"))
+        </Script>
+    </body>
+</html>

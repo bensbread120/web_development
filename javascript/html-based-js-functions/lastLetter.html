@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript trial</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <Script>
+//Traditional function
+         function lastLetter(string) {
+             return string.charAt(string.length - 1)
+         }
+         console.log(lastLetter("whatisthelastletter"))
+
+//Function expression
+         let lastLetter1 = function(string) {
+            return string.charAt(string.length - 1)
+         }
+         console.log(lastLetter1("Whereareyou"))
+
+//Arrow function
+         let lastLetter2 = string => string.charAt(string.length - 1)
+
+         console.log(lastLetter2("LAst string"))
+        </Script>
+    </body>
+</html>

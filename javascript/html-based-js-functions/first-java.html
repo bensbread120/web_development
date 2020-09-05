@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript trial</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <Script>
+         let userName = prompt("Who are you?");
+         
+         if (userName == "Admin") {
+            let pwd = prompt("Enter password?")
+            
+            if (pwd == "TheMaster") {
+                alert("Welcome!")
+            } else if (pwd == null || pwd == "") {
+                alert("Cancelled")
+            } else {
+                alert("Wrong password")
+            }
+         } else if (userName == null || userName == "") {
+             alert("Cancelled")
+         } else {
+             alert("I don't know you")
+         }
+         
+        </Script>
+    </body>
+</html>
